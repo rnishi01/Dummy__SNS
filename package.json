@@ -1,0 +1,17 @@
+{
+  "name": "realsns",
+  "version": "1.0.0",
+  "description": "real-sns",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server,js"
+  },
+  "author": "shin-code",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
