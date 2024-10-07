@@ -15,8 +15,7 @@ npm init
 　package name: (realsns) realsns
 　version:
 　gitrepository:
-　keywords:                                                                                                                                                                        license: (ISC) IS
-
+　keywords:
 次に同じディレクトリで以下のコマンドを実行
 npm i express mongoose nodemon helmet
 
