@@ -17,7 +17,7 @@ npm init
 　gitrepository:
 　keywords:
 次に同じディレクトリで以下のコマンドを実行
-npm i express mongoose nodemon helmet
+npm i express mongoose nodemon helmet dotenv
 
 作成されたpackage.jsonファイルの変更を破棄する
 ターミナルで以下コマンドを叩き（サーバーが起動しますた）のメッセージがコンソールに表示されたら完了
