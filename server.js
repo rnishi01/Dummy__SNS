@@ -17,13 +17,15 @@ mongoose.connect(process.env.MONGOURL)
 });
 
 //ミドルウェア
+app.use(express.json());
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postsRoute);
 
-// app.get("/", (req, res) => {
-//     res.send("hello express");
-// });
+
+app.get("/", (req, res) => {
+    res.send("hello express");
+});
 
 
 app.listen(PORT, () => console.log("サーバーが起動しますた"));
