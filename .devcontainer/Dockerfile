@@ -1,5 +1,5 @@
 # ベースイメージを指定
-FROM node:14
+FROM node:22.14.0
 
 # 作業ディレクトリを設定
 WORKDIR /workspace
